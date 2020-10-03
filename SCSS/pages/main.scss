@@ -1,0 +1,20 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+// HELPER
+@import "../helper/variable";
+@import "../helper/mixin";
+@import "../helper/function";
+
+// BASES
+@import "../bases/reset";
+@import "../bases/owlcarousel";
+@import "../bases/bootstrap";
+
+// COMPONENT
+@import "../component/header";
+@import "../component/carousel";
+@import "../component/bookMovie";
+@import "../component/trailer";
+
+// RESPONSIVE
+@import "../bases/responsive";

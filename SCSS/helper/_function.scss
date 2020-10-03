@@ -1,0 +1,6 @@
+// @function spacing($scaleVertical, $scaleHorizontal: null) {
+//   @if ($scaleHorizontal == null) {
+//     @return $scaleVertical * $spacing;
+//   }
+//   @return $scaleVertical * $spacing $scaleHorizontal * $spacing;
+// }

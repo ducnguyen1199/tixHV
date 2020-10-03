@@ -1,0 +1,56 @@
+@media screen and (max-width: 1023px) {
+  .header {
+    .header__navbar {
+      .header__navbar__list {
+        display: none;
+      }
+      .header__navbar__user {
+        display: none;
+      }
+
+      .header__navbar__icon-bar {
+        display: block;
+      }
+      .header__navbar__drop {
+        .drop__cancel {
+          margin-bottom: 10px;
+        }
+      }
+    }
+  }
+}
+// TABLET
+@media only screen and (min-width: 740px) and (max-width: 1024px) {
+  .main {
+    .main__container {
+      width: 80%;
+      .main__bookMovie {
+        padding: 10px 5px;
+        top: -20px;
+        .main__bookMovie__buy {
+          button {
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+}
+// MOBILE
+@media only screen and (max-width: 739px) {
+  .main {
+    .main__container {
+      width: 50%;
+      display: none;
+      .main__bookMovie {
+        padding: 10px 5px;
+        top: -20px;
+        .main__bookMovie__buy {
+          button {
+            padding: 5px;
+          }
+        }
+      }
+    }
+  }
+}

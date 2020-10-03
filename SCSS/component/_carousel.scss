@@ -1,0 +1,45 @@
+.carousel {
+  position: absolute;
+  top: 50px;
+  left: 0;
+  .owl-carousel {
+    .owl-stage-outer {
+      .owl-stage {
+        .owl-item {
+          .carousel__item {
+            cursor: pointer;
+            &:hover {
+              .carousel__item__play {
+                opacity: 1;
+              }
+            }
+            .carousel__item__play {
+              z-index: 2;
+              position: absolute;
+              top: 50%;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              opacity: 0;
+              transition: all 0.3s;
+              &:hover {
+                opacity: 0.6;
+              }
+            }
+            .carousel__item__overlay {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 0;
+              background: linear-gradient(to top, #000, transparent 20%);
+            }
+            img {
+              display: block;
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+}

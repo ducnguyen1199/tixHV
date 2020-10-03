@@ -1,0 +1,110 @@
+.trailer {
+  margin-top: 130px;
+  &__container {
+    width: 60%;
+    margin: auto;
+    .nav-tabs {
+      border: none;
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      .nav-item {
+        .nav-link {
+          color: $textBlack;
+          font-size: $fzH2;
+          font-weight: $fwMedium;
+          border: none;
+          transition: all 0.2s;
+          cursor: pointer;
+          height: 24px;
+          line-height: 24px;
+          &.active {
+            font-size: $fzH1;
+            color: $textPrimary;
+          }
+          &:hover {
+            font-size: $fzH1;
+          }
+        }
+      }
+    }
+    .tab-content {
+      .tab-pane {
+        padding: 0;
+        .showing {
+          .showing__slick {
+            &__item {
+              .item__film {
+                &__img {
+                  border-radius: 5px;
+                  height: 300px;
+                  background-image: url(https://s3img.vcdn.vn/mobile/123phim/2020/08/ac-quy-doi-dau-deliver-us-from-evil-c16-15984134403610_215x318.png);
+                  background-repeat: no-repeat;
+                  background-position: center;
+                  background-size: cover;
+                  margin-bottom: 8px;
+                }
+                &__info {
+                  &__icon {
+                    display: inline-block;
+                    font-size: 14px;
+                    background-color: #fb4226;
+                    border-radius: 4px;
+                    padding: 0 5px;
+                    margin-right: 6px;
+                    color: #fff;
+                  }
+                  &__name {
+                    font-size: 16px;
+                    font-weight: $fwMedium;
+                  }
+                  &__time {
+                    color: $textSecondary;
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+      .comingSoon {
+        .comingSoon__slick {
+          &__item {
+            .item__film {
+              cursor: pointer;
+              &__img {
+                border-radius: 5px;
+                height: 300px;
+                background-image: url(https://s3img.vcdn.vn/mobile/123phim/2020/09/rom-c18-15996245056088_215x318.png);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin-bottom: 8px;
+              }
+              &__info {
+                &__icon {
+                  display: inline-block;
+                  font-size: 14px;
+                  background-color: #fb4226;
+                  border-radius: 4px;
+                  padding: 0 5px;
+                  margin-right: 6px;
+                  color: #fff;
+                }
+                &__name {
+                  font-size: 16px;
+                  font-weight: $fwMedium;
+                }
+                &__time {
+                  color: $textSecondary;
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

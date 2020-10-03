@@ -1,0 +1,70 @@
+.carousel {
+  .owl-nav {
+    margin: 0 !important;
+    height: 0 !important;
+    button.owl-prev {
+      span {
+        position: absolute;
+        top: 30%;
+        font-size: 100px;
+        width: 70px;
+        color: $textPrimary;
+        left: 20px;
+      }
+    }
+    button.owl-next {
+      span {
+        position: absolute;
+        top: 30%;
+        font-size: 100px;
+        width: 70px;
+        color: $textPrimary;
+        right: 20px;
+      }
+    }
+  }
+  .owl-dots {
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    button {
+      outline: none;
+      &.active {
+        span {
+          background-color: #fb4226 !important;
+        }
+      }
+      span {
+        width: 12px !important;
+        height: 12px !important;
+        margin: 3px 5px !important;
+        background-color: #d8d8d8 !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .carousel {
+    .owl-nav {
+      top: 8%;
+    }
+  }
+}
+@media screen and (max-width: 580px) {
+  .carousel {
+    .owl-nav {
+      button.owl-prev {
+        span {
+          top: 10%;
+        }
+      }
+      button.owl-next {
+        span {
+          top: 10%;
+        }
+      }
+    }
+  }
+}

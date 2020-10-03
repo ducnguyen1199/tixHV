@@ -1,0 +1,628 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tix.vn</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="./css/slick.css" />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!-- HEADER -->
+    <section class="header">
+      <div class="header__navbar">
+        <div class="header__navbar__logo">
+          <a href="#">
+            <img src="./image/web-logo.png" alt="" />
+          </a>
+        </div>
+        <div class="header__navbar__list">
+          <ul class="m-0">
+            <li>
+              <a href="#">Lịch chiếu</a>
+            </li>
+            <li>
+              <a href="#">Cụm rạp</a>
+            </li>
+            <li>
+              <a href="#">Tin tức</a>
+            </li>
+            <li>
+              <a href="#">Ứng dụng</a>
+            </li>
+          </ul>
+        </div>
+        <div class="header__navbar__user">
+          <div class="user__login">
+            <a href="#">
+              <i class="fa fa-user-circle"></i>
+              <span>Đăng nhập</span>
+            </a>
+          </div>
+          <div class="user__location">
+            <div class="user__location__selected">
+              <i class="fa fa-map-marker-alt"></i>
+              <div class="user__location__change">Hồ Chí minh</div>
+              <i class="fa fa-angle-down"></i>
+            </div>
+            <ul class="user__location__drop">
+              <li data-id-location="0">Hồ Chí Minh</li>
+              <li data-id-location="1">Hà Nội</li>
+              <li data-id-location="2">Đà Nẵng</li>
+              <li data-id-location="3">Hải Phòng</li>
+              <li data-id-location="4">Biên Hoà</li>
+              <li data-id-location="5">Nha Trang</li>
+              <li data-id-location="6">Bình Dương</li>
+              <li data-id-location="7">Phan Thiết</li>
+              <li data-id-location="8">Hạ Long</li>
+              <li data-id-location="9">Cần Thơ</li>
+              <li data-id-location="10">Vũng Tàu</li>
+              <li data-id-location="11">Quy Nhơn</li>
+              <li data-id-location="12">Huế</li>
+              <li data-id-location="13">Long Xuyên</li>
+              <li data-id-location="14">Thái Nguyên</li>
+              <li data-id-location="15">Buôn Ma Thuột</li>
+              <li data-id-location="16">Bắc Giang</li>
+              <li data-id-location="17">Bến Tre</li>
+              <li data-id-location="18">Việt Trì</li>
+              <li data-id-location="19">Ninh Bình</li>
+              <li data-id-location="20">Thái Bình</li>
+              <li data-id-location="21">Vinh</li>
+              <li data-id-location="22">Bảo Lộc</li>
+              <li data-id-location="23">Đà Lạt</li>
+              <li data-id-location="24">Trà Vinh</li>
+              <li data-id-location="25">Yên Bái</li>
+              <li data-id-location="26">Kiên Giang</li>
+              <li data-id-location="27">Vĩnh Long</li>
+              <li data-id-location="28">Cà Mau</li>
+              <li data-id-location="29">Hậu Giang</li>
+              <li data-id-location="30">Tây Ninh</li>
+              <li data-id-location="31">Tuyên Quang</li>
+              <li data-id-location="32">Thanh Hóa</li>
+              <li data-id-location="33">Nam Định</li>
+              <li data-id-location="34">Hải Dương</li>
+              <li data-id-location="35">Gia Lai</li>
+              <li data-id-location="36">Hà Tĩnh</li>
+              <li data-id-location="37">Phú Yên</li>
+              <li data-id-location="38">Bạc Liêu</li>
+              <li data-id-location="39">Long An</li>
+              <li data-id-location="40">Đồng Hới</li>
+              <li data-id-location="41">Hà Nam</li>
+              <li data-id-location="42">Bắc Ninh</li>
+              <li data-id-location="43">Quảng Trị</li>
+              <li data-id-location="44">Kon Tum</li>
+              <li data-id-location="45">Sóc Trăng</li>
+              <li data-id-location="46">Sơn La</li>
+              <li data-id-location="47">Lạng Sơn</li>
+              <li data-id-location="48">Quảng Ngãi</li>
+              <li data-id-location="49">Mỹ Tho</li>
+              <li data-id-location="50">Đồng Tháp</li>
+              <li data-id-location="51">Hưng Yên</li>
+            </ul>
+          </div>
+        </div>
+        <label for="nav__input" class="header__navbar__icon-bar">
+          <i class="fa fa-bars"></i>
+        </label>
+        <input
+          type="checkbox"
+          hidden
+          name=""
+          class="nav__input"
+          id="nav__input"
+        />
+        <label for="nav__input" class="header__navbar__overlay"></label>
+        <div class="header__navbar__drop">
+          <label for="nav__input" class="drop__cancel m-0">
+            <i class="fa fa-times"></i>
+          </label>
+          <ul class="m-0">
+            <li class="drop__login">
+              <a href="#">
+                <i class="fa fa-user-alt"></i>
+                Đăng nhập
+              </a>
+            </li>
+            <li>
+              <a href="#">
+                <i class="fa fa-calendar-alt"></i>
+                Lịch chiếu</a
+              >
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-location-arrow"></i>Cụm rạp</a>
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-bell"></i>Tin tức</a>
+            </li>
+            <li>
+              <a href="#"> <i class="fa fa-archive"></i>Ứng dụng</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- END HEADER -->
+    <!-- CAROUSEL -->
+    <section class="carousel">
+      <div class="owl-carousel owl-theme">
+        <div class="carousel__item">
+          <div class="carousel__item__play">
+            <a href="#">
+              <img src="./image/carousel__iconplay.png" alt="" />
+            </a>
+          </div>
+          <a href="#" class="carousel__item__overlay"></a>
+          <img src="./image/carousel1.png" alt="" />
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item__play">
+            <a>
+              <img src="./image/carousel__iconplay.png" alt="" />
+            </a>
+          </div>
+          <div class="carousel__item__overlay"></div>
+          <img src="./image/carousel2.jpg" alt="" />
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item__play">
+            <a>
+              <img src="./image/carousel__iconplay.png" alt="" />
+            </a>
+          </div>
+          <div class="carousel__item__overlay"></div>
+          <img src="./image/carousel3.png" alt="" />
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item__play">
+            <a>
+              <img src="./image/carousel__iconplay.png" alt="" />
+            </a>
+          </div>
+          <div class="carousel__item__overlay"></div>
+          <img src="./image/carousel4.jpg" alt="" />
+        </div>
+        <div class="carousel__item">
+          <div class="carousel__item__play">
+            <a href="#">
+              <img src="./image/carousel__iconplay.png" alt="" />
+            </a>
+          </div>
+          <a href="#" class="carousel__item__overlay"></a>
+          <img src="./image/carousel5.jpg" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- END CAROUSEL -->
+    <!-- BOOK MOVIE -->
+    <section class="bookMovie">
+      <div class="bookMovie__container">
+        <div class="main__bookMovie">
+          <div class="main__bookMovie__film">
+            <div class="bookMovie__film__content">
+              <div class="bookMovie__film__change">Phim</div>
+              <i class="fa fa-angle-down"></i>
+            </div>
+            <ul class="bookMovie__film__drop">
+              <li data-id-location="0">Tenet - (C16)</li>
+              <li data-id-location="1">
+                Kẻ Cắp Nhân Dạng - Simon's Got a Gift - (C16)
+              </li>
+              <li data-id-location="2">Biệt Đội Săn Mồi - Rogue - (C18)</li>
+              <li data-id-location="3">
+                Nội Chiến Siêu Anh Hùng - Captain America: Civil War (NC16)
+              </li>
+              <li data-id-location="4">
+                Dị Nhân Thế Hệ Mới - The New Mutants - (C16)
+              </li>
+              <li data-id-location="5">
+                Đầu Gấu Bắc Cực: Kỳ Nghỉ Vui Nhộn - Norm of the North: Family
+                Vacation - (P)
+              </li>
+              <li data-id-location="6">
+                Học Viện Quái Vật: Du Học Sinh - Cranston Academy: Monster Zone
+                - (P)
+              </li>
+              <li data-id-location="7">Hầm Quỷ - Behind You - (C18)</li>
+              <li data-id-location="8">
+                Mình ơi, Xin Đừng Qua Sông - My Love, Don't Cross That River -
+                (P)
+              </li>
+              <li data-id-location="9">Điệp Viên Siêu Lầy - My Spy - (13)</li>
+              <li data-id-location="10">
+                Kẻ Ẩn Nấp - You're Not Alone - (C16)
+              </li>
+              <li data-id-location="11">Đánh Cắp Giấc Mơ - Inception</li>
+              <li data-id-location="12">
+                Cá Sấu Tử Thần - Black Water: Abyss - (C18)
+              </li>
+              <li data-id-location="44">
+                Ngôi Đền Kì Quái - Pee Nak 2 - (C16)
+              </li>
+              <li data-id-location="45">
+                Cuộc Phiêu Lưu Của Scooby-doo! - Scoob! - (P)
+              </li>
+              <li data-id-location="46">Yêu Nhau Mùa Ế - Low Season - (C16)</li>
+            </ul>
+          </div>
+          <div class="main__bookMovie__place bookMovie__item">
+            <div class="bookMovie__place__content bookMovie__item__content">
+              <div class="bookMovie__place__change bookMovie__item__change">
+                Rạp
+              </div>
+              <i class="fa fa-angle-down"></i>
+            </div>
+            <ul class="bookMovie__item__drop cinema__drop">
+              <li data-id-location="0">CineStar Hai Bà Trưng</li>
+              <li data-id-location="1">CineStar Hai Bà Trưng</li>
+              <li data-id-location="2">Lotte Cinema Cantavil</li>
+              <li data-id-location="3">Lotte Cinema Cộng Hòa</li>
+              <li data-id-location="4">Lotte Cinema Gò Vấp</li>
+              <li data-id-location="5">Lotte Cinema Nam Sài Gòn</li>
+              <li data-id-location="5">Lotte Cinema Thủ Đức</li>
+            </ul>
+          </div>
+          <div class="main__bookMovie__date bookMovie__item">
+            <div class="bookMovie__date__content bookMovie__item__content">
+              <div class="bookMovie__date__change bookMovie__item__change">
+                Ngày xem
+              </div>
+              <i class="fa fa-angle-down"></i>
+            </div>
+            <ul class="bookMovie__item__drop date__drop">
+              <li data-id-location="0">CineStar Hai Bà Trưng</li>
+            </ul>
+          </div>
+          <div class="main__bookMovie__showtime bookMovie__item">
+            <div class="bookMovie__showtime__content bookMovie__item__content">
+              <div class="bookMovie__showtime__change bookMovie__item__change">
+                Giờ chiếu
+              </div>
+              <i class="fa fa-angle-down"></i>
+            </div>
+            <ul class="bookMovie__item__drop showtime__drop">
+              <li data-id-location="0">CineStar Hai Bà Trưng</li>
+            </ul>
+          </div>
+          <div class="main__bookMovie__buy text-center">
+            <button>MUA VÉ NGAY</button>
+          </div>
+        </div>
+        <!-- END BOOK MOVIE -->
+      </div>
+    </section>
+    <!-- END BOOK MOVIE -->
+    <!-- TRAILER -->
+    <section class="trailer">
+      <div class="trailer__container">
+        <ul class="nav nav-tabs navCenter">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#dangChieu"
+              >Đang Chiếu</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-toggle="tab" href="#sapChieu">Sắp Chiếu</a>
+          </li>
+        </ul>
+
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div class="tab-pane container active dang__chieu" id="dangChieu">
+            <div class="showing">
+              <div class="showing__slick">
+                <div class="showing__slick__item">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane container fade" id="sapChieu">
+            <div class="comingSoon">
+              <div class="comingSoon__slick">
+                <div class="comingSoon__slick__item">
+                  <div class="row">
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-3">
+                      <div class="item__film">
+                        <div class="item__film__img"></div>
+                        <div class="item__film__info">
+                          <span class="item__film__info__icon">C18</span>
+                          <span class="item__film__info__name"
+                            >Ác Quỷ Đối Đầu - Deliver Us From Evil - (C18)</span
+                          >
+                          <p class="item__film__info__time">100 phút</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="trailer__slick__item">
+                  <div class="row">
+                    <div class="col-3">Hello</div>
+                    <div class="col-3">Hello</div>
+                    <div class="col-3">Hello</div>
+                    <div class="col-3">Hello</div>
+                    <div class="col-3">Hello</div>
+                    <div class="col-3">Hello</div>
+                    <div class="col-3">Hello</div>
+                    <div class="col-3">Hello</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- END TRAILER -->
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <!-- OWL CAROUSEL HEADER-->
+    <script src="./JS/owl.carousel.min.js"></script>
+    <script>
+      var owl = $(".owl-carousel");
+      owl.owlCarousel({
+        loop: true,
+        autoplay: true,
+        nav: true,
+        autoplayTimeout: 4000,
+        autoplayHoverPause: true,
+        items: 1,
+        smartSpeed: 800,
+        callback: true,
+      });
+    </script>
+    <!-- END OWL CAROUSEL HEADER -->
+    <!-- SLICK CAROUSEL TRAILER -->
+    <script src="./JS/slick.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".showing__slick").slick({});
+        $(".comingSoon__slick").slick({});
+      });
+      $('a[data-toggle="tab"]').on("shown.bs.tab", function (e) {
+        $(".showing__slick").slick("setPosition");
+        $(".comingSoon__slick").slick("setPosition");
+      });
+    </script>
+    <!-- END SLICK CAROUSEL TRAILER -->
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
+    <script>
+      // khi click vào user__location thì sẽ add hoặc remove class active
+      document
+        .querySelector(".user__location")
+        .addEventListener("click", function () {
+          this.querySelector(".user__location__drop").classList.toggle(
+            "active"
+          ); // hàm toggle: dùng để add class hoặc remove class active
+        });
+
+      // thay đổi nội dung của user__location__change khi click vào thẻ li
+      document.querySelectorAll(".user__location__drop li").forEach((el) => {
+        el.addEventListener("click", function () {
+          document.querySelector(".user__location__change").innerHTML =
+            el.innerHTML;
+        });
+      });
+    </script>
+    <script src="./JS/bookMovie.js"></script>
+  </body>
+</html>
